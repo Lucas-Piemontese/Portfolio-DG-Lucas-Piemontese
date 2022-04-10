@@ -122,13 +122,13 @@ html{
     font-size: 45px;
     line-height: 50px;
 }
-
 .presentacion__subtitulo{
     color: #e9bb52;
     font-size: 20px;
     margin-top: 15px;
     line-height: 28px;
 }
+
 /*------------- resumen servicios --------------- */
 
 .resumen-servicios{
@@ -201,6 +201,10 @@ html{
     padding-top:15px;
     padding-bottom: 15px;
 }
+.resumen-servicios__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+}
 /*-----------------------inspirate -----------------------*/
 .inspirate{
     background-color: #e9bb52;
@@ -247,6 +251,10 @@ html{
         padding-top:15px;
         padding-bottom: 15px;
     }
+.inspirate__boton a:hover{
+        background-color: #002a3a;
+        color: white;
+        }
 /*------------------ resumen sobre mi----------------------*/
 .resumen-sobremi{
     display: grid;
@@ -528,6 +536,10 @@ margin-top: 70px;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.resumen-servicios__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+}
 /*-----------------------inspirate(1024x1360) -----------------------*/
 .inspirate{
     background-color: #e9bb52;
@@ -573,6 +585,11 @@ margin-top: 70px;
         padding-right: 18px;
         padding-top:15px;
         padding-bottom: 15px;
+    }
+
+.inspirate__boton a:hover{
+    background-color: #002a3a;
+    color: white;
     }
 /*------------------ resumen sobre mi (1024 - 1360) ----------------------*/
 .resumen-sobremi{
@@ -854,6 +871,10 @@ margin-top: 70px;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.resumen-servicios__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+}
 /*-----------------------inspirate(801x1023) -----------------------*/
 .inspirate{
     background-color: #e9bb52;
@@ -899,6 +920,10 @@ margin-top: 70px;
         padding-right: 18px;
         padding-top:15px;
         padding-bottom: 15px;
+    }
+.inspirate__boton a:hover{
+        background-color: #002a3a;
+        color: white;
     }
 /*------------------ resumen sobre mi (801 - 1023) ----------------------*/
 .resumen-sobremi{
@@ -1167,6 +1192,10 @@ margin-top: 70px;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.resumen-servicios__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+}
 /*-----------------------inspirate(601-800) -----------------------*/
 .inspirate{
     background-color: #e9bb52;
@@ -1177,6 +1206,7 @@ margin-top: 70px;
 .inspirate__imagenes{
     display: flex;
     flex-direction: column;
+    align-self: center;
 }
 .inspirate__texto{
     display: grid;
@@ -1210,6 +1240,10 @@ margin-top: 70px;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.inspirate__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+    }
 /*------------- resumen sobre mi (320-600)------------- */
 .resumen-sobremi{
     display: flex;
@@ -1487,6 +1521,10 @@ margin-top: 70px;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.resumen-servicios__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+}
 /*-----------------------inspirate(320x600) -----------------------*/
 .inspirate{
     background-color: #e9bb52;
@@ -1497,6 +1535,9 @@ margin-top: 70px;
 .inspirate__imagenes{
     display: flex;
     flex-direction: column;
+}
+.inspirate__imagenes img{
+    width: 100%;
 }
 .inspirate__texto{
     display: grid;
@@ -1530,6 +1571,10 @@ margin-top: 70px;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.inspirate__boton a:hover{
+    background-color: #002a3a;
+    color: white;
+    }
 /*------------- resumen sobre mi (320-600)------------- */
 .resumen-sobremi{
     display: flex;
@@ -1649,6 +1694,7 @@ margin-top: 70px;
     justify-self: end;
     margin-top: 150px;
     margin-bottom: 150px;
+    --animate-duration: 1.5s;
 }
 .sobremi__texto{
     color: #002a3a;
@@ -1656,6 +1702,8 @@ margin-top: 70px;
     align-self: center;
     width: 500px;
     margin-left: 50px;
+    --animate-duration: 2s;
+    --animate-delay: 0.2s;
     }
 
 .sobremi__texto p{
@@ -1704,6 +1752,7 @@ margin-top: 70px;
         justify-self: end;
         margin-top: 200px;
         margin-bottom: 200px;
+        --animate-duration: 1.5s;
     }
     .sobremi__texto{
         color: #002a3a;
@@ -1712,6 +1761,8 @@ margin-top: 70px;
         width: 350px;
         margin-left: 40px;
         margin-right: 40px;
+        --animate-duration: 2s;
+        --animate-delay: 0.2s;
         }
     
     .sobremi__texto p{
@@ -1761,6 +1812,7 @@ margin-top: 70px;
             justify-self: end;
             margin-top: 200px;
             margin-bottom: 200px;
+            --animate-duration: 1.5s;
         }
         .sobremi__texto{
             color: #002a3a;
@@ -1769,6 +1821,8 @@ margin-top: 70px;
             width: 350px;
             margin-left: 40px;
             margin-right: 40px;
+            --animate-duration: 2s;
+            --animate-delay: 0.2s;
             }
         
         .sobremi__texto p{
@@ -1816,6 +1870,7 @@ margin-top: 70px;
             align-self: center;
             margin-top: 100px;
             margin-bottom: 60px;
+            --animate-duration: 1.5s;
         }
         .sobremi__texto{
             color: #002a3a;
@@ -1829,6 +1884,8 @@ margin-top: 70px;
             margin-left: 20px;
             margin-right: 20px;
             margin-bottom: 60px;
+            --animate-duration: 2s;
+            --animate-delay: 0.2s;
             }
         }
 
@@ -1866,6 +1923,7 @@ margin-top: 70px;
         align-self: center;
         margin-top: 100px;
         margin-bottom: 60px;
+        --animate-duration: 1.5s;
     }
     .sobremi__texto{
         color: #002a3a;
@@ -1879,6 +1937,8 @@ margin-top: 70px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 60px;
+        --animate-duration: 2s;
+        --animate-delay: 0.2s;
         }
     .sobremi__texto p{
         line-height: 24px;
@@ -1886,5 +1946,3 @@ margin-top: 70px;
         font-size: 15px;
         }
     }
-
-    
