@@ -1947,3 +1947,88 @@ margin-top: 70px;
         font-size: 15px;
         }
     }
+
+    /*========================================= CONTACTO ================================================ */
+
+    .contacto__encabezado{
+        background-color: #002a3a;
+        color: #e9bb52;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(20,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .contacto__titulo{
+        font-family: 'montserrat_medium';
+        font-size: 45px;
+        grid-column: 3/12;
+        align-self: end;
+    }
+    .contacto__subtitulo{
+        font-size: 20px;
+        grid-column: 3/14;
+        grid-template-rows: 2/3;
+        font-family: 'Montserrat-Light';
+        align-self: start;
+    }
+    .contacto__formulario{
+        display: grid;
+        height: 700px;
+        grid-template-columns: repeat(20,1fr);
+        grid-template-rows: repeat(10,1fr);
+        color: #002a3a;
+    }
+    .contacto__formulario-titulo{
+        grid-column: 3/10;
+        grid-row: 2/3;
+    }
+    .contacto__formulario-titulo h2{
+        font-size: 25px;
+        color: #002a3a;
+        font-size: 27px;
+    }
+
+    .contacto__formulario-check{
+        grid-column: 3/8;
+        grid-row: 3/6;
+    }
+    .form-check{
+        font-size: 20px;
+    }
+    .nombre{
+        grid-column:3/11;
+        grid-row: 6/7;
+    }
+    .apellido{
+        grid-column: 12/19;
+        grid-row: 6/7;
+    }
+    .email{
+        grid-column: 3/11;
+        grid-row: 7/8;
+    }
+    .telefono{
+        grid-column: 12/19;
+        grid-row: 7/8;
+    }
+    .mensaje{
+        grid-column: 3/19;
+        grid-row: 8/9;
+        margin-top: 20px;
+    }
+
+    .boton-submit{
+        grid-column: 3/4;
+        grid-row: 9/10;
+        height: 50px;
+        width: 150px;
+        background-color: #002a3a;
+        color: white;
+        border: none;
+        margin-top: 20px;
+    }
+    .boton-submit:hover{
+        background-color:#e9bb52;
+        color: #002a3a;
+    }
