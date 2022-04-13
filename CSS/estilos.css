@@ -85,11 +85,15 @@ html{
 .header__insta{
     color: #e9bb52;
     padding-left: 20px;
+    position: relative;
+    bottom: 10px;
 }
 
 .header__behance{
     color: #e9bb52;
     padding-left: 20px;
+    position: relative;
+    bottom: 10px;
 }
 
 .header__menu{
@@ -97,6 +101,14 @@ html{
     padding-left: 10px;
     display: none;
 }
+
+.header__insta:hover{
+    color:white;
+}
+.header__behance:hover{
+    color: white;
+}
+
 
 /*---------------presentacion---------------*/
 
@@ -313,9 +325,12 @@ html{
 .footer h2{
     font-family: 'montserrat_bold';
     margin-bottom: 15px;
+    font-size: 22px;
 }
+
 .footer li{
     line-height: 30px;
+    font-family: 'montserrat_light';
 }
 
 .footer__logo{
@@ -345,12 +360,17 @@ margin-top: 70px;
     margin-bottom: 80px;
     width: 150px;
 }
+.footer__lista{
+    position: relative;
+    right: 30px;
+}
 .footer__copyright{
     grid-column: 1/11;
     grid-row: 3/4;
     justify-self: center;
     align-self: center;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'montserrat_light';
 }
 .footer__linea{
     grid-column: 1/11;
@@ -419,11 +439,15 @@ margin-top: 70px;
     .header__insta{
         color: #e9bb52;
         padding-left: 15px;
+        position: relative;
+        bottom: 8px;
     }
     
     .header__behance{
         color: #e9bb52;
         padding-left: 15px;
+        position: relative;
+        bottom: 8px;
     }
     .header__menu{
         color: #e9bb52;
@@ -654,6 +678,9 @@ margin-top: 70px;
 .footer li{
     line-height: 30px;
     font-size: 14px;
+    position: relative;
+    right: 30px;
+    font-family: 'montserrat_light';
 }
 
 .footer__logo{
@@ -688,7 +715,8 @@ margin-top: 70px;
     grid-row: 3/4;
     justify-self: center;
     align-self: center;
-    font-size: 12px;
+    font-size: 13px;
+    font-family: 'montserrat_light';
 }
 .footer__linea{
     grid-column: 1/11;
@@ -755,11 +783,15 @@ margin-top: 70px;
     .header__insta{
         color: #e9bb52;
         padding-left: 10px;
+        position: relative;
+        bottom: 8px;
     }
     
     .header__behance{
         color: #e9bb52;
         padding-left: 10px;
+        position: relative;
+        bottom: 8px;
     }
     .header__menu{
         color: #e9bb52;
@@ -984,7 +1016,10 @@ margin-top: 70px;
 }
 .footer li{
     line-height: 30px;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'montserrat_light';
+    position: relative;
+    right: 30px;
 }
 
 .footer__logo{
@@ -1019,7 +1054,8 @@ margin-top: 70px;
     grid-row: 3/4;
     justify-self: center;
     align-self: center;
-    font-size: 12px;
+    font-size: 13px;
+    font-family: 'montserrat_light';
 }
 .footer__linea{
     grid-column: 1/11;
@@ -1293,6 +1329,10 @@ margin-top: 70px;
 
 .footer__container li{
     line-height: 24px;
+    font-family: 'montserrat_light';
+    position: relative;
+    right: 30px;
+    font-size: 15px;
 }
 
 .footer__container li a{
@@ -1320,6 +1360,8 @@ margin-top: 70px;
     margin-bottom: 50px;
     margin-top: 20px;
     text-align: center;
+    font-family: 'montserrat_light';
+    font-size: 12px;
 }
 
 .footer__linea{
@@ -1624,6 +1666,9 @@ margin-top: 70px;
 
 .footer__container li{
     line-height: 24px;
+    font-family: 'montserrat_light';
+    position: relative;
+    right: 30px;
 }
 
 .footer__container li a{
@@ -1651,6 +1696,8 @@ margin-top: 70px;
     margin-bottom: 50px;
     margin-top: 20px;
     text-align: center;
+    font-family: 'montserrat_light';
+    font-size: 12px;
 }
 
 .footer__linea{
