@@ -1,0 +1,190 @@
+@import "fuentes";
+$color-azul: #002a3a;
+$color-amarillo:#e9bb52;
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'montserrat_light';
+}
+
+/*---------------------- Encabezado HOME -------------------------*/
+
+.header{
+    background-color: $color-azul ;
+    height: 200px;
+    
+    .header__container{
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        align-content: center;
+        align-items: center;
+        height: 200px;
+        a {
+            grid-column: 2/3;
+        }
+        .header__logo{
+            width: 350px;
+        }
+        .header__nav{
+            grid-column: 5/9;
+            .header__lista{
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+
+                li a{
+                text-decoration: none;
+                color: $color-amarillo;
+                font-family: 'montserrat_light';
+
+                &:hover{
+                    font-family: 'montserrat_bold';
+                }
+                }
+            }
+        }
+        .header__redes{
+            grid-column: 9/10;
+            display: flex;
+            justify-content: end;
+            .header__insta{
+                color: $color-amarillo;
+                padding-left: 20px;
+                position: relative;
+                bottom: 10px;
+            }
+            .header__insta:hover{
+                color: white;
+            }
+            .header__behance{
+                color: $color-amarillo;
+                padding-left: 20px;
+                position: relative;
+                bottom: 10px;
+            }
+            .header__behance:hover{
+                color: white;
+            }
+            .header__menu{
+                color: $color-amarillo;
+                padding-left: 10px;
+                display: none;
+            }
+        }
+        
+    }
+}
+
+/*----------------------- Presentacion HOME ------------------------------*/
+
+.presentacion{
+    background-color: $color-azul;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    .presentacion__texto{
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+        width: 500px;
+        .presentacion__titulo{
+            color: $color-amarillo;
+            font-family: 'montserrat_bold';
+            font-size: 45px;
+            line-height: 50px;
+        }
+        .presentacion__subtitulo{
+            color: $color-amarillo;
+            font-size: 20px;
+            margin-top: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+/*--------------------- Resumen servicios HOME --------------------------*/
+
+.resumen-servicios{
+    color: $color-azul;
+    height: 500px;
+    
+    h6{
+        font-family: 'montserrat_bold';
+        font-size: 15px;
+    }
+    h3{
+        font-family: 'montserrat_medium';
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    p{
+        font-family: 'montserrat_light';
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .resumen-servicios__container{
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(2,1fr);
+        height: 420px;
+
+        .resumen-servicios__texto{
+            grid-column: 2/6;
+            grid-row: 1/2;
+            align-self: center;
+
+            .resumen-servicios__titulo{
+                font-family: 'montserrat_medium';
+                font-size: 40px;
+            }
+            .resumen-servicios__subtitulo{
+                font-family: 'montserrat_light';
+                font-size: 20px;
+            }
+        }
+        .resumen-servicios__branding{
+            grid-column: 2/4;
+            width: 300px;
+        }
+        .resumen-servicios__web{
+            grid-column: 5/7;
+            width: 300px;
+        }
+        .resumen-servicios__redes{
+            grid-column: 8/10;
+            width: 300px;
+        }
+    }
+}
+.resumen-servicios__boton{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 60px;
+
+    a{
+    text-decoration: none;
+    color: #002a3a;
+    border: #002a3a solid 1px;
+    font-family: 'montserrat_medium';
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    }
+    a:hover{
+        background-color: $color-azul;
+        color: white;
+    }
+}
