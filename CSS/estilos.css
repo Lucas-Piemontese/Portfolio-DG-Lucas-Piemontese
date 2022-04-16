@@ -661,6 +661,50 @@ margin-top: 70px;
     background-color: #002a3a;
     color: white;
     }
+
+    .inspirate__img{
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    .overlay{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 0%;
+    
+    }
+    
+    .overlay h4{
+        color: #e9bb52;
+        font-family: 'montserrat_light';
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        }
+    
+    .overlay:hover{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 94%;
+        transition: all,0.5s;
+        cursor: pointer;
+    
+    }
 /*------------------ resumen sobre mi (1024 - 1360) ----------------------*/
 .resumen-sobremi{
     display: grid;
@@ -1003,6 +1047,51 @@ margin-top: 70px;
         background-color: #002a3a;
         color: white;
     }
+
+    .inspirate__img{
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    .overlay{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 0%;
+    
+    }
+    
+    .overlay h4{
+        color: #e9bb52;
+        font-family: 'montserrat_light';
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        }
+    
+    .overlay:hover{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 94%;
+        transition: all,0.5s;
+        cursor: pointer;
+    
+    }
 /*------------------ resumen sobre mi (801 - 1023) ----------------------*/
 .resumen-sobremi{
     display: grid;
@@ -1325,6 +1414,51 @@ margin-top: 70px;
 .inspirate__boton a:hover{
     background-color: #002a3a;
     color: white;
+    }
+
+    .inspirate__img{
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    .overlay{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 0%;
+    
+    }
+    
+    .overlay h4{
+        color: #e9bb52;
+        font-family: 'montserrat_light';
+        font-size: 25px;
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        }
+    
+    .overlay:hover{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 94%;
+        transition: all,0.5s;
+        cursor: pointer;
+    
     }
 /*------------- resumen sobre mi (320-600)------------- */
 .resumen-sobremi{
@@ -1662,6 +1796,50 @@ margin-top: 70px;
 .inspirate__boton a:hover{
     background-color: #002a3a;
     color: white;
+    }
+    .inspirate__img{
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    .overlay{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 0%;
+    
+    }
+    
+    .overlay h4{
+        color: #e9bb52;
+        font-family: 'montserrat_light';
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        }
+    
+    .overlay:hover{
+        background-color: #002a3a;
+        position: absolute;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 94%;
+        transition: all,0.5s;
+        cursor: pointer;
+    
     }
 /*------------- resumen sobre mi (320-600)------------- */
 .resumen-sobremi{
