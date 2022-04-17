@@ -193,4 +193,92 @@ html {
   color: white;
 }
 
+/*--------------------- Inspirate HOME --------------------------*/
+.inspirate {
+  background-color: #e9bb52;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inspirate .inspirate__texto {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+.inspirate .inspirate__texto .inspirate__titulo {
+  color: #002a3a;
+  font-family: "montserrat_medium";
+  font-size: 40px;
+  grid-column: 3/6;
+}
+.inspirate .inspirate__imagenes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 40px;
+}
+.inspirate .inspirate__imagenes img {
+  width: 100%;
+}
+.inspirate .inspirate__imagenes .inspirate__img {
+  position: relative;
+  text-align: center;
+  display: block;
+}
+.inspirate .inspirate__imagenes .inspirate__img .overlay {
+  background-color: #002a3a;
+  position: absolute;
+  bottom: 0%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0%;
+}
+.inspirate .inspirate__imagenes .inspirate__img .overlay h4 {
+  color: #e9bb52;
+  font-family: "montserrat_light";
+  display: block;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}
+.inspirate .inspirate__imagenes .inspirate__img .overlay:hover {
+  background-color: #002a3a;
+  position: absolute;
+  bottom: 0%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 94%;
+  transition: all, 0.5s;
+  cursor: pointer;
+}
+.inspirate .inspirate__boton {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.inspirate .inspirate__boton a {
+  text-decoration: none;
+  color: #002a3a;
+  border: #002a3a solid 1px;
+  font-family: "montserrat_medium";
+  font-size: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.inspirate .inspirate__boton a:hover {
+  background-color: #002a3a;
+  color: white;
+}
+
 /*# sourceMappingURL=estilos.css.map */
