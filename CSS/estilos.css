@@ -1556,6 +1556,7 @@ html {
   .header .header__container .header__redes .header__menu {
     color: #e9bb52;
     padding-left: 10px;
+    display: block;
   }
 
   /*--------------------------- RESPONSIVE HOME 320-600 --------------------------------*/
@@ -1648,7 +1649,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   .resumen-servicios__boton a {
     text-decoration: none;
@@ -1672,7 +1673,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 2200px;
+    height: auto;
   }
   .inspirate .inspirate__texto {
     display: grid;
@@ -1756,6 +1757,48 @@ html {
   }
 
   /*---------------------- Resumen Sobre mi HOME (320-600) -------------------- */
+  .resumen-sobremi {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .resumen-sobremi .resumen-sobremi__imagen {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .resumen-sobremi .resumen-sobremi__imagen img {
+    width: 280px;
+  }
+  .resumen-sobremi .resumen-sobremi__texto {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .resumen-sobremi .resumen-sobremi__texto .resumen-sobremi__titulo {
+    font-family: "montserrat_medium";
+    font-size: 21px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .resumen-sobremi .resumen-sobremi__texto .resumen-sobremi__parrafo {
+    font-family: "montserrat_light";
+    font-size: 15px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
   /*---------------------- Footer HOME (320-600 )-------------------------*/
   .footer {
     display: flex;
