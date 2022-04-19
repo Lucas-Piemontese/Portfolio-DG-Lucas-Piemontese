@@ -139,6 +139,7 @@ html{
     font-size: 20px;
     margin-top: 15px;
     line-height: 28px;
+    font-family: 'montserrat_medium';
 }
 
 /*------------- resumen servicios --------------- */
@@ -918,6 +919,7 @@ margin-top: 70px;
     font-size: 14px;
     margin-top: 10px;
     line-height: 22px;
+    font-family: 'montserrat_light';
 }
 
 /*------------- resumen servicios (801-1023) --------------- */
@@ -1157,17 +1159,19 @@ margin-top: 70px;
 }
 
 .footer__logo{
-width: 180px;
+width: 190px;
 grid-column: 2/3;
 grid-row: 1/3;
 margin-top: 70px;
+margin-left: 30px;
 }
 .footer__servicios{
     grid-column: 4/5;
     grid-row: 1/3;
     margin-top: 80px;
     margin-bottom: 80px;
-    width: 180px;
+    margin-left: 30px;
+    width: 150px;
 }
 .footer__explora{
     grid-column: 6/7;
@@ -1181,7 +1185,9 @@ margin-top: 70px;
     grid-row: 1/3;
     margin-top: 80px;
     margin-bottom: 80px;
-    width: 150px;
+    width: auto;
+    position: relative;
+    right: 20px;
 }
 .footer__copyright{
     grid-column: 1/11;
@@ -1933,6 +1939,7 @@ margin-top: 70px;
 
 /*------------------------- RESPONSIVE 1361====> ---------------------------*/
 
+
 .sobremi__cabecera{
     background-color: #002a3a;
     color: #e9bb52;
@@ -1953,6 +1960,7 @@ margin-top: 70px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
     margin-top: 10px;
+    font-family: 'montserrat_light';
 }
 
 .sobremi__container{
@@ -1980,6 +1988,7 @@ margin-top: 70px;
 .sobremi__texto p{
     line-height: 26px;
     margin-bottom: 20px;
+    font-family: 'montserrat_light';
 }
 .sobremi__texto h2{
     font-family: 'montserrat_medium';
@@ -2011,6 +2020,7 @@ margin-top: 70px;
         grid-column: 3/16;
         grid-template-rows: 2/3;
         margin-top: 10px;
+        font-family: 'montserrat_light';
     }
     
     .sobremi__container{
@@ -2071,6 +2081,7 @@ margin-top: 70px;
             grid-column: 3/16;
             grid-template-rows: 2/3;
             margin-top: 10px;
+            font-family: 'montserrat_light';
         }
         
         .sobremi__container{
@@ -2135,6 +2146,7 @@ margin-top: 70px;
             grid-column: 4/18;
             grid-template-rows: 2/3;
             margin-top: 10px;
+            font-family: 'montserrat_light';
         }
         .sobremi__container img{
             width: 500px;
@@ -2188,6 +2200,7 @@ margin-top: 70px;
         grid-column: 3/19;
         grid-template-rows: 2/3;
         margin-top: 10px;
+        font-family: 'montserrat_light';
     }
     .sobremi__container img{
         width: 300px;
@@ -2204,9 +2217,9 @@ margin-top: 70px;
         color: #002a3a;
         justify-self: start;
         align-self: center;
-        width: 280px;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: auto;
+        margin-left: 45px;
+        margin-right: 45px;
         margin-bottom: 60px;
         --animate-duration: 2s;
         --animate-delay: 0.2s;
@@ -2240,7 +2253,7 @@ margin-top: 70px;
         font-size: 20px;
         grid-column: 3/14;
         grid-template-rows: 2/3;
-        font-family: 'Montserrat-Light';
+        font-family: 'montserrat_light';
         align-self: start;
     }
     .contacto__formulario{
@@ -2253,16 +2266,20 @@ margin-top: 70px;
     .contacto__formulario-titulo{
         grid-column: 3/10;
         grid-row: 2/3;
+        font-family: 'montserrat_medium';
     }
     .contacto__formulario-titulo h2{
         font-size: 25px;
         color: #002a3a;
         font-size: 27px;
+        font-family: 'montserrat_medium';
+
     }
 
     .contacto__formulario-check{
         grid-column: 3/8;
         grid-row: 3/6;
+        font-family: 'montserrat_light';
     }
     .form-check{
         font-size: 20px;
@@ -2341,6 +2358,7 @@ margin-top: 70px;
     .contacto__formulario-titulo{
         grid-column: 3/12;
         grid-row: 2/3;
+        font-family: 'montserrat_medium';
     }
     .contacto__formulario-titulo h2{
         font-size: 25px;
@@ -2351,6 +2369,7 @@ margin-top: 70px;
     .contacto__formulario-check{
         grid-column: 3/8;
         grid-row: 3/6;
+        font-family: 'montserrat_light';
     }
     .form-check{
         font-size: 20px;
@@ -2425,8 +2444,9 @@ margin-top: 70px;
         color: #002a3a;
     }
     .contacto__formulario-titulo{
-        grid-column: 3/12;
+        grid-column: 3/13;
         grid-row: 2/3;
+        font-family: 'montserrat_medium';
     }
     .contacto__formulario-titulo h2{
         font-size: 25px;
@@ -2437,6 +2457,7 @@ margin-top: 70px;
     .contacto__formulario-check{
         grid-column: 3/8;
         grid-row: 3/6;
+        font-family: 'montserrat_light';
     }
     .form-check{
         font-size: 20px;
@@ -2512,8 +2533,9 @@ margin-top: 70px;
         color: #002a3a;
     }
     .contacto__formulario-titulo{
-        grid-column: 3/14;
+        grid-column: 3/18;
         grid-row: 2/3;
+        font-family: 'montserrat_medium';
     }
     .contacto__formulario-titulo h2{
         font-size: 23px;
@@ -2523,6 +2545,7 @@ margin-top: 70px;
     .contacto__formulario-check{
         grid-column: 3/8;
         grid-row: 3/6;
+        font-family: 'montserrat_light';
     }
     .form-check{
         font-size: 18px;
@@ -2601,6 +2624,7 @@ margin-top: 70px;
     .contacto__formulario-titulo{
         grid-column: 2/8;
         grid-row: 2/3;
+        font-family: 'montserrat_medium';
     }
     .contacto__formulario-titulo h2{
         font-size: 18px;
@@ -2609,9 +2633,10 @@ margin-top: 70px;
     }
 
     .contacto__formulario-check{
-        grid-column: 2/8;
+        grid-column: 2/9;
         grid-row: 3/4;
         margin-bottom: 30px;
+        font-family: 'montserrat_light';
     }
     .form-check{
         font-size: 16px;
