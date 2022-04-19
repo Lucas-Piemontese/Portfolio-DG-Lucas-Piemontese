@@ -108,6 +108,19 @@ html{
 .header__behance:hover{
     color: white;
 }
+#evento-click{
+    display: none;
+}
+
+.desplegable__lista{
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+    margin: 0;
+}
 
 
 /*---------------presentacion---------------*/
@@ -500,6 +513,19 @@ margin-top: 70px;
         padding-left: 10px;
         display: none;
     }
+    #evento-click{
+        display: none;
+    }
+
+    .desplegable__lista{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display: none;
+        margin: 0;
+    }
 
 /*---------------presentacion (1024-1360)---------------*/
 
@@ -888,6 +914,19 @@ margin-top: 70px;
         padding-left: 10px;
         display: none;
     }
+    #evento-click{
+        display: none;
+    }
+
+    .desplegable__lista{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display: none;
+        margin: 0;
+    }
 
 /*---------------presentacion (801-1023)---------------*/
 
@@ -1271,6 +1310,33 @@ margin-left: 30px;
     .header__menu{
         color: #e9bb52;
         padding-left: 10px;
+        cursor: pointer;
+    }
+    #evento-click{
+        display: none;
+    }
+
+    .desplegable__lista{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display: none;
+        margin: 0;
+    }
+    .desplegable__lista li a{
+        color: #e9bb52;
+        text-decoration: none;
+        font-family: 'montserrat_light';
+        line-height: 50px;
+    }
+    #evento-click:checked ~ .desplegable__lista{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display:block;
     }
 
 /*---------------presentacion (601-800)---------------*/
@@ -1622,6 +1688,33 @@ margin-left: 30px;
     .header__menu{
         color: #e9bb52;
         padding-left: 10px;
+        cursor: pointer;
+    }
+    #evento-click{
+        display: none;
+    }
+
+    .desplegable__lista{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display: none;
+        margin: 0;
+    }
+    .desplegable__lista li a{
+        color: #e9bb52;
+        text-decoration: none;
+        font-family: 'montserrat_light';
+        line-height: 50px;
+    }
+    #evento-click:checked ~ .desplegable__lista{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display:block;
     }
 
     .presentacion{
