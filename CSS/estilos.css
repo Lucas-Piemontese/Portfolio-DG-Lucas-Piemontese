@@ -1229,7 +1229,7 @@ margin-left: 30px;
         height: 150px;
     }
     .header__container a{
-        grid-column: 4/11;
+        grid-column: 3/11;
     
     }
     .header__logo{
@@ -1253,7 +1253,7 @@ margin-left: 30px;
         font-size: 15px;
     }
     .header__redes{
-        grid-column:17/19;
+        grid-column:18/19;
         display: flex;
         justify-content: start;
     }
@@ -3229,3 +3229,119 @@ margin-left: 30px;
         }
 
     }
+
+    /* ---------------------------- Servicios 601 -800 -------------------------------- */
+
+    @media only screen and (min-width: 601px) and (max-width: 800px) {
+
+        .servicios__encabezado{
+            background-color: #002a3a;
+            color: #e9bb52;
+            height: 200px;
+            display: grid;
+            grid-template-columns: repeat(20,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+    
+        .servicios__titulo{
+            font-family: 'montserrat_medium';
+            font-size: 45px;
+            grid-column: 3/12;
+            align-self: end;
+        }
+        .servicios__subtitulo{
+            font-size: 19px;
+            grid-column: 3/19;
+            grid-template-rows: 2/3;
+            font-family: 'Montserrat-Light';
+            align-self: start;
+        }
+
+        .servicios__container{
+            display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .servicios__container img{
+            margin-top: 20px;
+        }
+        .servicios__container p{
+            font-family: 'montserrat_light';
+        }
+        .servicios__container h3{
+            font-family: 'montserrat_medium';
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .servicios__container h6{
+            font-family: 'montserrat_bold';
+            margin-bottom: 15px;
+        }
+        .servicios{
+            margin-top: 70px;
+            color: #002a3a;
+        }
+
+        .imagen-posters__2{
+            margin-bottom: 100px;
+        }
+        }
+
+        /* ---------------------------- Servicios 320 -600 -------------------------------- */
+
+    @media only screen and (min-width: 320px) and (max-width: 600px) {
+
+        .servicios__encabezado{
+            background-color: #002a3a;
+            color: #e9bb52;
+            height: 200px;
+            display: grid;
+            grid-template-columns: repeat(20,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+    
+        .servicios__titulo{
+            font-family: 'montserrat_medium';
+            font-size: 45px;
+            grid-column: 3/12;
+            align-self: end;
+        }
+        .servicios__subtitulo{
+            font-size: 19px;
+            grid-column: 3/19;
+            grid-template-rows: 2/3;
+            font-family: 'Montserrat-Light';
+            align-self: start;
+        }
+
+        .servicios__container{
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .servicios__container img{
+            margin-top: 20px;
+        }
+        .servicios__container p{
+            font-family: 'montserrat_light';
+        }
+        .servicios__container h3{
+            font-family: 'montserrat_medium';
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .servicios__container h6{
+            font-family: 'montserrat_bold';
+            margin-bottom: 15px;
+        }
+        .servicios{
+            margin-top: 70px;
+            color: #002a3a;
+        }
+
+        .imagen-posters__2{
+            margin-bottom: 100px;
+        }
+} 
