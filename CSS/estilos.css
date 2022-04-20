@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "montserrat_light";
   src: url(../Fuentes/Montserrat-Light.ttf);
@@ -89,6 +90,36 @@ html {
 .header .header__container .header__redes .header__menu {
   color: #e9bb52;
   padding-left: 10px;
+  display: none;
+}
+
+/*------------ Menú Hamburguesa 1360==>) ------------*/
+#evento-click {
+  display: none;
+}
+
+.desplegable__lista {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  background-color: #002a3a;
+  display: none;
+  margin: 0;
+}
+
+.desplegable__lista li a {
+  color: #e9bb52;
+  text-decoration: none;
+  font-family: "montserrat_light";
+  line-height: 50px;
+}
+
+#evento-click:checked ~ .desplegable__lista {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  background-color: #002a3a;
   display: none;
 }
 
@@ -462,6 +493,36 @@ html {
     display: none;
   }
 
+  /*------------ Menú Hamburguesa 1024-1360) ------------*/
+  #evento-click {
+    display: none;
+  }
+
+  .desplegable__lista {
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+    margin: 0;
+  }
+
+  .desplegable__lista li a {
+    color: #e9bb52;
+    text-decoration: none;
+    font-family: "montserrat_light";
+    line-height: 50px;
+  }
+
+  #evento-click:checked ~ .desplegable__lista {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+  }
+
   /*----------------------- Presentacion HOME (1024-1360) --------------------------*/
   .presentacion {
     background-color: #002a3a;
@@ -827,6 +888,36 @@ html {
   .header .header__container .header__redes .header__menu {
     color: #e9bb52;
     padding-left: 10px;
+    display: none;
+  }
+
+  /*------------ Menú Hamburguesa 801-1023) ------------*/
+  #evento-click {
+    display: none;
+  }
+
+  .desplegable__lista {
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+    margin: 0;
+  }
+
+  .desplegable__lista li a {
+    color: #e9bb52;
+    text-decoration: none;
+    font-family: "montserrat_light";
+    line-height: 50px;
+  }
+
+  #evento-click:checked ~ .desplegable__lista {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
     display: none;
   }
 
@@ -1200,6 +1291,37 @@ html {
   .header .header__container .header__redes .header__menu {
     color: #e9bb52;
     padding-left: 10px;
+    display: block;
+  }
+
+  /*------------ Menú Hamburguesa 601-800) ------------*/
+  #evento-click {
+    display: none;
+  }
+
+  .desplegable__lista {
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+    margin: 0;
+  }
+
+  .desplegable__lista li a {
+    color: #e9bb52;
+    text-decoration: none;
+    font-family: "montserrat_light";
+    line-height: 50px;
+  }
+
+  #evento-click:checked ~ .desplegable__lista {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: block;
   }
 
   /*----------------------- Presentacion HOME (601-800) -----------------------*/
@@ -1559,7 +1681,37 @@ html {
     display: block;
   }
 
-  /*--------------------------- RESPONSIVE HOME 320-600 --------------------------------*/
+  /*------------ Menú Hamburguesa (320-600) ------------*/
+  #evento-click {
+    display: none;
+  }
+
+  .desplegable__lista {
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+    margin: 0;
+  }
+
+  .desplegable__lista li a {
+    color: #e9bb52;
+    text-decoration: none;
+    font-family: "montserrat_light";
+    line-height: 50px;
+  }
+
+  #evento-click:checked ~ .desplegable__lista {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: block;
+  }
+
+  /*--------------------------- Presentacion HOME 320-600 --------------------------------*/
   .presentacion {
     background-color: #002a3a;
     display: flex;
@@ -1609,9 +1761,10 @@ html {
     height: auto;
     display: flex;
     flex-direction: column;
-    align-self: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    align-self: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
   }
   .resumen-servicios .resumen-servicios__container .resumen-servicios__texto .resumen-servicios__titulo {
     font-family: "montserrat_medium";
