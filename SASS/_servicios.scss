@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'montserrat_light';
+}
+/* =========================== SERVICIOS 1360 ==> ================================= */
+
+@media only screen and (min-width: 1361px){
+
+    .servicios__encabezado{
+        background-color: #002a3a;
+        color: #e9bb52;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(20,1fr);
+        grid-template-rows: repeat(2,1fr);
+
+        .servicios__titulo{
+            font-family: 'montserrat_medium';
+            font-size: 45px;
+            grid-column: 3/12;
+            align-self: end;
+        }
+        .servicios__subtitulo{
+            font-size: 20px;
+            grid-column: 3/14;
+            grid-template-rows: 2/3;
+            font-family: 'Montserrat-Light';
+            align-self: start;
+        }
+    }
+    .servicios__container{
+        display: grid;
+        grid-template-columns: auto 350px 350px 350px auto;
+        grid-template-rows: repeat(7,1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 120px;
+        height: 2500px;
+
+        .servicios__branding{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            align-self: center;
+            width: 350px;
+            color: #002a3a;
+            font-family: 'montserrat_light';
+            margin-right: 20px;
+        }
+        .imagen-servicios__1{
+            grid-column: 3/4;
+            grid-row: 2/3;
+            width: 350px;
+        }
+        .imagen-servicios__2{
+            grid-column: 4/5;
+            grid-row: 2/3;
+            width: 350px;
+        }
+        /*------- creando un mixin ------- */
+        @mixin tamaño-y-fuente-Servicios {
+            font-family: 'montserrat_medium';
+            font-size: 50px;
+        }
+        /*-------------------------------*/
+
+        .servicios__branding h6{
+            font-family: 'montserrat_medium';
+        }
+        .servicios__branding h3{
+            @include tamaño-y-fuente-Servicios;
+        }
+        .servicios__redes{
+            @extend .servicios__branding;
+            grid-column: 4/5;
+            grid-row: 3/4;
+        }
+        .imagen-redes__1{
+            grid-column: 3/4;
+            grid-row: 3/4;
+            width: 350px;
+        }
+        .imagen-redes__2{
+            grid-column: 2/3;
+            grid-row:3/4;
+            width: 350px;
+        }
+        .servicios__redes h6{
+            font-family: 'montserrat_medium';
+        }
+        .servicios__redes h3{
+            @include tamaño-y-fuente-Servicios;
+        }
+        .servicios__web{
+            @extend .servicios__branding;
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+        .imagen-web__1{
+            grid-column: 3/4;
+            grid-row: 4/5;
+            width: 350px;
+        }
+        .imagen-web__2{
+            grid-column: 4/5;
+            grid-row:4/5;
+            width: 350px;
+        }
+        .servicios__web h6{
+            font-family: 'montserrat_medium';
+        }
+        .servicios__web h3{
+            @include tamaño-y-fuente-Servicios;
+        }
+        .servicios__flyers{
+            @extend .servicios__branding;
+            grid-column: 4/5;
+            grid-row: 5/6;
+        }
+        .imagen-flyers__1{
+            grid-column: 2/3;
+            grid-row: 5/6;
+            width: 350px;
+        }
+        .imagen-flyers__2{
+            grid-column: 3/4;
+            grid-row:5/6;
+            width: 350px;
+        }
+        .servicios__flyers h6{
+            font-family: 'montserrat_medium';
+        }
+        .servicios__flyers h3{
+            @include tamaño-y-fuente-Servicios;
+        }
+        .servicios__posters{
+            @extend .servicios__branding;
+            grid-column: 2/3;
+            grid-row: 6/7;
+        }
+        .imagen-posters__1{
+            grid-column: 3/4;
+            grid-row: 6/7;
+            width: 350px;
+        }
+        .imagen-posters__2{
+            grid-column: 4/5;
+            grid-row:6/7;
+            width: 350px;
+        }
+        .servicios__posters h6{
+            font-family: 'montserrat_medium';
+        }
+        .servicios__posters h3{
+            font-family: 'montserrat_medium';
+            font-size: 50px;
+        }
+    }
+    }
