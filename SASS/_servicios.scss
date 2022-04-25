@@ -462,4 +462,92 @@ html{
 /* ---------------------------- Servicios 601 -800 -------------------------------- */
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+    .servicios__encabezado{
+        @include encabezado-servicios;
+
+        .servicios__titulo{
+        @include encabezado-titulo
+        }
+        .servicios__subtitulo{
+        @include encabezado-subtitulo;
+        grid-column: 3/19;
+        font-size: 19px;
+        }
     }
+    .servicios__container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        img{
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: 'montserrat_light';
+        }
+        h3{
+            font-family: 'montserrat_medium';
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        h6{
+            font-family: 'montserrat_bold';
+            margin-bottom: 15px;
+            margin-top: 70px;
+        }
+        .servicios{
+            margin-top: 70px;
+            color: #002a3a;
+        }
+        .imagen-posters__2{
+            margin-bottom: 100px;
+        }
+    }
+    }
+     /* ---------------------------- Servicios 320 -600 -------------------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .servicios__encabezado{
+        @include encabezado-servicios;
+
+        .servicios__titulo{
+        @include encabezado-titulo
+        }
+        .servicios__subtitulo{
+        @include encabezado-subtitulo;
+        grid-column: 3/19;
+        font-size: 19px;
+        }
+    }
+    .servicios__container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        img{
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: 'montserrat_light';
+        }
+        h3{
+            font-family: 'montserrat_medium';
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        h6{
+            font-family: 'montserrat_bold';
+            margin-bottom: 15px;
+            margin-top: 70px;
+        }
+        .servicios{
+            margin-top: 70px;
+            color: #002a3a;
+        }
+        .imagen-posters__2{
+            margin-bottom: 100px;
+        }
+    }
+}

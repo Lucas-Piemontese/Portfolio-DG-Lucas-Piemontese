@@ -1301,6 +1301,9 @@ html{
     .header{
         background: $color-azul;
         height: 150px;
+        z-index: 100;
+        position: sticky;
+        top: 0;
 
         .header__container{
             display: grid;
@@ -1361,12 +1364,16 @@ html{
     }
     .desplegable__lista{
         width: 100%;
+        height: 280px;
         list-style: none;
         padding: 0px;
         text-align: center;
         background-color: #002a3a;
         display: none;
         margin: 0;
+        position: absolute;
+        top: 130px;
+        z-index: 100;
     }
     .desplegable__lista li a{
         color: #e9bb52;
