@@ -601,6 +601,17 @@ html {
   font-family: "montserrat_light";
 }
 
+/* =========================== PORTFOLIO 1360 ==> ================================= */
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "montserrat_light";
+}
+
 /*---------------------- Encabezado HOME -------------------------*/
 .header {
   background-color: #002a3a;
