@@ -9,6 +9,39 @@ html{
 }
 /* =========================== PORTFOLIO 1360 ==> ================================= */
 
+@mixin encabezado-portfolio {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }
+@mixin portfolio-titulo {
+    font-family: 'montserrat_medium';
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+    }
+@mixin portfolio-subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: 'Montserrat-Light';
+    align-self: start;
+    }
+@media only screen and (min-width: 1361px){
+        .portfolio__encabezado{
+            @include encabezado-portfolio;
+    
+            .portfolio__titulo{
+            @include encabezado-titulo
+            }
+            .portfolio__subtitulo{
+            @include encabezado-subtitulo
+            }
+        }
+}
 .filtro{
     display: grid;
     grid-template-columns: repeat(10,1fr);
@@ -174,6 +207,17 @@ html{
 /*-------------------------------------------- Portfolio 1024-1360 ------------------------------------------------ */
 
 @media only screen and (min-width: 1024px) and (max-width: 1360px) {
+
+    .portfolio__encabezado{
+        @include encabezado-portfolio;
+
+        .portfolio__titulo{
+        @include encabezado-titulo
+        }
+        .portfolio__subtitulo{
+        @include encabezado-subtitulo
+        }
+    }
     .filtro{
         display: grid;
         grid-template-columns: repeat(10,1fr);
@@ -343,6 +387,17 @@ html{
 /*------------------------------ Porfolio 801-1023 --------------------------------- */
 
 @media only screen and (min-width: 801px) and (max-width: 1023px) {
+
+    .portfolio__encabezado{
+        @include encabezado-portfolio;
+
+        .portfolio__titulo{
+        @include encabezado-titulo
+        }
+        .portfolio__subtitulo{
+        @include encabezado-subtitulo
+        }
+    }
 
     .filtro{
         display: grid;
@@ -520,6 +575,19 @@ html{
 /*------------------------------ Porfolio 601-800 --------------------------------- */
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+
+    .portfolio__encabezado{
+        @include encabezado-portfolio;
+
+        .portfolio__titulo{
+        @include encabezado-titulo
+        }
+        .portfolio__subtitulo{
+        @include encabezado-subtitulo;
+        grid-column: 3/19;
+        font-size: 19px;
+        }
+    }
 
     .filtro{
         display: grid;
@@ -704,6 +772,19 @@ html{
  /*------------------------------ Porfolio 320-600 --------------------------------- */
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .portfolio__encabezado{
+        @include encabezado-portfolio;
+
+        .portfolio__titulo{
+        @include encabezado-titulo
+        }
+        .portfolio__subtitulo{
+        @include encabezado-subtitulo;
+        grid-column: 3/19;
+        font-size: 19px;
+        }
+    }
 
     .filtro{
         display: flex;

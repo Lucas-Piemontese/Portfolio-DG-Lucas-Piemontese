@@ -510,6 +510,7 @@ html {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+    color: #002a3a;
   }
   .servicios__container img {
     margin-bottom: 20px;
@@ -566,12 +567,14 @@ html {
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
+    color: #002a3a;
   }
   .servicios__container img {
     margin-bottom: 20px;
   }
   .servicios__container p {
     font-family: "montserrat_light";
+    color: #002a3a;
   }
   .servicios__container h3 {
     font-family: "montserrat_medium";
@@ -582,10 +585,6 @@ html {
     font-family: "montserrat_bold";
     margin-bottom: 15px;
     margin-top: 70px;
-  }
-  .servicios__container .servicios {
-    margin-top: 70px;
-    color: #002a3a;
   }
   .servicios__container .imagen-posters__2 {
     margin-bottom: 100px;
@@ -602,6 +601,29 @@ html {
 }
 
 /* =========================== PORTFOLIO 1360 ==> ================================= */
+@media only screen and (min-width: 1361px) {
+  .portfolio__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .portfolio__encabezado .portfolio__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+  }
+  .portfolio__encabezado .portfolio__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+  }
+}
 .filtro {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -767,6 +789,28 @@ html {
 
 /*-------------------------------------------- Portfolio 1024-1360 ------------------------------------------------ */
 @media only screen and (min-width: 1024px) and (max-width: 1360px) {
+  .portfolio__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .portfolio__encabezado .portfolio__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+  }
+  .portfolio__encabezado .portfolio__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+  }
+
   .filtro {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -933,6 +977,28 @@ html {
 }
 /*------------------------------ Porfolio 801-1023 --------------------------------- */
 @media only screen and (min-width: 801px) and (max-width: 1023px) {
+  .portfolio__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .portfolio__encabezado .portfolio__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+  }
+  .portfolio__encabezado .portfolio__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+  }
+
   .filtro {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -1104,6 +1170,30 @@ html {
 }
 /*------------------------------ Porfolio 601-800 --------------------------------- */
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+  .portfolio__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .portfolio__encabezado .portfolio__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+  }
+  .portfolio__encabezado .portfolio__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+    grid-column: 3/19;
+    font-size: 19px;
+  }
+
   .filtro {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -1283,6 +1373,30 @@ html {
 }
 /*------------------------------ Porfolio 320-600 --------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+  .portfolio__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .portfolio__encabezado .portfolio__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+  }
+  .portfolio__encabezado .portfolio__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+    grid-column: 3/19;
+    font-size: 19px;
+  }
+
   .filtro {
     display: flex;
     flex-direction: column;
