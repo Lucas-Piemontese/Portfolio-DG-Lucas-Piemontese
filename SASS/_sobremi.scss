@@ -8,3 +8,297 @@ html{
     font-family: 'montserrat_light';
 }
 /* =========================== SOBRE MI 1360 ==> ================================= */
+
+$paleta:(
+    'primario': #002a3a,
+    'secundario': #e9bb52,
+    'neutro': white
+);
+
+@mixin encabezado-sobremi {
+    background-color: map-get($map: $paleta, $key:'primario' );
+    color: map-get($map: $paleta, $key:'secundario' );
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }
+@mixin encabezado-titulo {
+    font-family: 'montserrat_medium';
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+    }
+@mixin encabezado-subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: 'Montserrat-Light';
+    align-self: start;
+    }
+
+    @media only screen and (min-width: 1361px){
+        .sobremi__encabezado{
+            @include encabezado-sobremi;
+    
+            .sobremi__titulo{
+            @include encabezado-titulo
+            }
+            .sobremi__subtitulo{
+            @include encabezado-subtitulo
+            }
+        }
+        .sobremi__container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+            img{
+                width: 600px;
+                justify-self: end;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                --animate-duration: 1.5s;
+            }
+            .sobremi__texto{
+                color: map-get($map: $paleta, $key:'primario' );
+                justify-self: start;
+                align-self: center;
+                width: 500px;
+                margin-left: 50px;
+                --animate-duration: 2s;
+                --animate-delay: 0.2s;
+
+                p{
+                    line-height: 26px;
+                    margin-bottom: 20px;
+                    font-family: 'montserrat_light';
+                }
+                h2{
+                    font-family: 'montserrat_medium';
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                }
+                }
+        }
+    }
+    /*---------------------------- (1024-1360) ------------------------------ */
+
+    @media only screen and (min-width: 1024px) and (max-width: 1360px) {
+
+        .sobremi__encabezado{
+            @include encabezado-sobremi;
+    
+            .sobremi__titulo{
+            @include encabezado-titulo;
+            grid-column: 3/11;
+            }
+            .sobremi__subtitulo{
+                font-size: 18px;
+                grid-column: 3/16;
+                grid-template-rows: 2/3;
+                margin-top: 10px;
+                margin-bottom: 100px;
+                font-family: 'montserrat_light';
+            }
+        }
+        .sobremi__container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+            img{
+                width: 400px;
+                justify-self: end;
+                margin-top: 200px;
+                margin-bottom: 200px;
+                --animate-duration: 1.5s;
+            }
+            .sobremi__texto{
+                color: #002a3a;
+                justify-self: start;
+                align-self: center;
+                width: 350px;
+                margin-left: 40px;
+                margin-right: 40px;
+                --animate-duration: 2s;
+                --animate-delay: 0.2s;
+                }
+                p{
+                    line-height: 26px;
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                    font-family: 'montserrat_light';
+                }
+                h2{
+                    font-family: 'montserrat_medium';
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                }
+        }
+    }
+    /*------------------------------(801-1023)-----------------------------*/
+    @media only screen and (min-width: 801px) and (max-width: 1023px) {
+
+        .sobremi__encabezado{
+            @include encabezado-sobremi;
+            height: 200px;
+    
+            .sobremi__titulo{
+            @include encabezado-titulo;
+            grid-column: 3/11;
+            }
+            .sobremi__subtitulo{
+                font-size: 18px;
+                grid-column: 3/16;
+                grid-template-rows: 2/3;
+                margin-top: 10px;
+                margin-bottom: 100px;
+                font-family: 'montserrat_light';
+            }
+        }
+        .sobremi__container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+            img{
+                width: 330px;
+                justify-self: end;
+                margin-top: 200px;
+                margin-bottom: 200px;
+                --animate-duration: 1.5s;
+            }
+            .sobremi__texto{
+                color: #002a3a;
+                justify-self: start;
+                align-self: center;
+                width: 350px;
+                margin-left: 40px;
+                margin-right: 40px;
+                --animate-duration: 2s;
+                --animate-delay: 0.2s;
+
+                p{
+                    line-height: 26px;
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                    font-family: 'montserrat_light';
+                }
+                h2{
+                    font-family: 'montserrat_medium';
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                }
+                }
+        }
+}
+        /*------------------------------(601-800)-----------------------------*/
+
+    @media only screen and (min-width: 601px) and (max-width: 800px) {
+
+        .sobremi__encabezado{
+            @include encabezado-sobremi;
+            height: 200px;
+    
+            .sobremi__titulo{
+            @include encabezado-titulo;
+            grid-column: 3/11;
+            }
+            .sobremi__subtitulo{
+                font-size: 18px;
+                grid-column: 3/18;
+                grid-template-rows: 2/3;
+                margin-top: 10px;
+                margin-bottom: 100px;
+                font-family: 'montserrat_light';
+            }
+        }
+        .sobremi__container{
+            display: flex;
+            flex-direction: column;
+
+            img{
+                width: 500px;
+                align-self: center;
+                margin-top: 100px;
+                margin-bottom: 60px;
+                --animate-duration: 1.5s;
+            }
+            .sobremi__texto{
+                color: #002a3a;
+                justify-self: start;
+                align-self: center;
+                width: 450px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 60px;
+                --animate-duration: 2s;
+                --animate-delay: 0.2s;
+
+                p{
+                    font-family: 'montserrat_light';
+                }
+                h2{
+                font-family: 'montserrat_medium';
+                margin-bottom: 20px;
+                }
+            }
+        }
+
+    }
+/*------------------------------(320-600)-----------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .sobremi__encabezado{
+        @include encabezado-sobremi;
+        height: 200px;
+
+            .sobremi__titulo{
+            font-family: 'montserrat_medium';
+            font-size: 35px;
+            grid-column: 3/15;
+            align-self: end;
+            }
+            .sobremi__subtitulo{
+                font-size: 14px;
+                grid-column: 3/19;
+                grid-template-rows: 2/3;
+                margin-top: 10px;
+                font-family: 'montserrat_light';
+            }
+        
+    }
+    .sobremi__container{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 300px;
+            align-self: center;
+            margin-top: 100px;
+            margin-bottom: 60px;
+            --animate-duration: 1.5s;
+        }
+        .sobremi__texto{
+            color: #002a3a;
+            justify-self: start;
+            align-self: center;
+            width: auto;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-bottom: 60px;
+            --animate-duration: 2s;
+            --animate-delay: 0.2s;
+            }
+        p{
+            line-height: 24px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            font-family: 'montserrat_light';
+            }
+        h2{
+            font-family: 'montserrat_medium';
+            margin-bottom: 20px;
+            }
+    }
+
+}
