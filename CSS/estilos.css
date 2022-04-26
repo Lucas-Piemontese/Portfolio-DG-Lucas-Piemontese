@@ -1824,6 +1824,454 @@ html {
   font-family: "montserrat_light";
 }
 
+/*========================================= CONTACTO ================================================ */
+@media only screen and (min-width: 1361px) {
+  .contacto__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .contacto__encabezado .contacto__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+  }
+  .contacto__encabezado .contacto__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+  }
+
+  .contacto__formulario {
+    display: grid;
+    height: 750px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    color: #002a3a;
+  }
+  .contacto__formulario .contacto__formulario-titulo {
+    grid-column: 3/10;
+    grid-row: 2/3;
+    font-family: "montserrat_medium";
+  }
+  .contacto__formulario .contacto__formulario-titulo h2 {
+    font-size: 25px;
+    color: #002a3a;
+    font-size: 27px;
+    font-family: "montserrat_medium";
+  }
+  .contacto__formulario .contacto__formulario-check {
+    grid-column: 3/8;
+    grid-row: 3/6;
+    font-family: "montserrat_light";
+  }
+  .contacto__formulario .contacto__formulario-check .form-check {
+    font-size: 20px;
+  }
+  .contacto__formulario .nombre {
+    grid-column: 3/10;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .apellido {
+    grid-column: 11/19;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .email {
+    grid-column: 3/10;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .telefono {
+    grid-column: 11/19;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .mensaje {
+    grid-column: 3/19;
+    grid-row: 8/9;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    height: 50px;
+    width: 150px;
+    background-color: #002a3a;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit:hover {
+    background-color: #e9bb52;
+    color: #002a3a;
+  }
+}
+/*------------------------------ contacto 1024-1360 ----------------------------------*/
+@media only screen and (min-width: 1024px) and (max-width: 1360px) {
+  .contacto__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .contacto__encabezado .contacto__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+    font-size: 40px;
+  }
+  .contacto__encabezado .contacto__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+  }
+
+  .contacto__formulario {
+    display: grid;
+    height: 750px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    color: #002a3a;
+  }
+  .contacto__formulario .contacto__formulario-titulo {
+    grid-column: 3/12;
+    grid-row: 2/3;
+    font-family: "montserrat_medium";
+  }
+  .contacto__formulario .contacto__formulario-titulo h2 {
+    font-size: 25px;
+    color: #002a3a;
+    font-size: 24px;
+  }
+  .contacto__formulario .contacto__formulario-check {
+    grid-column: 3/8;
+    grid-row: 3/6;
+    font-family: "montserrat_light";
+  }
+  .contacto__formulario .contacto__formulario-check .form-check {
+    font-size: 20px;
+  }
+  .contacto__formulario .nombre {
+    grid-column: 3/9;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .apellido {
+    grid-column: 10/19;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .email {
+    grid-column: 3/9;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .telefono {
+    grid-column: 10/19;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .mensaje {
+    grid-column: 3/19;
+    grid-row: 8/9;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    height: 50px;
+    width: 150px;
+    background-color: #002a3a;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit:hover {
+    background-color: #e9bb52;
+    color: #002a3a;
+  }
+}
+/*--------------------------- contacto 801-1023 ----------------------------*/
+@media only screen and (min-width: 801px) and (max-width: 1023px) {
+  .contacto__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .contacto__encabezado .contacto__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+    font-size: 40px;
+    grid-column: 3/15;
+  }
+  .contacto__encabezado .contacto__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+  }
+
+  .contacto__formulario {
+    display: grid;
+    height: 750px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    color: #002a3a;
+  }
+  .contacto__formulario .contacto__formulario-titulo {
+    grid-column: 3/13;
+    grid-row: 2/3;
+    font-family: "montserrat_medium";
+  }
+  .contacto__formulario .contacto__formulario-titulo h2 {
+    font-size: 25px;
+    color: #002a3a;
+    font-size: 24px;
+  }
+  .contacto__formulario .contacto__formulario-check {
+    grid-column: 3/8;
+    grid-row: 3/6;
+    font-family: "montserrat_light";
+  }
+  .contacto__formulario .contacto__formulario-check .form-check {
+    font-size: 20px;
+  }
+  .contacto__formulario .nombre {
+    grid-column: 3/9;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .apellido {
+    grid-column: 10/19;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .email {
+    grid-column: 3/9;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .telefono {
+    grid-column: 10/19;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .mensaje {
+    grid-column: 3/19;
+    grid-row: 8/9;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    height: 50px;
+    width: 150px;
+    background-color: #002a3a;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit:hover {
+    background-color: #e9bb52;
+    color: #002a3a;
+  }
+}
+/*-------------------------------- contacto 601-800 --------------------------------------*/
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .contacto__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .contacto__encabezado .contacto__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+    font-size: 35px;
+    grid-column: 3/16;
+  }
+  .contacto__encabezado .contacto__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+    grid-column: 3/16;
+  }
+
+  .contacto__formulario {
+    display: grid;
+    height: 750px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    color: #002a3a;
+  }
+  .contacto__formulario .contacto__formulario-titulo {
+    grid-column: 3/18;
+    grid-row: 2/3;
+    font-family: "montserrat_medium";
+  }
+  .contacto__formulario .contacto__formulario-titulo h2 {
+    font-size: 23px;
+    color: #002a3a;
+  }
+  .contacto__formulario .contacto__formulario-check {
+    grid-column: 3/8;
+    grid-row: 3/6;
+    font-family: "montserrat_light";
+  }
+  .contacto__formulario .contacto__formulario-check .form-check {
+    font-size: 18px;
+  }
+  .contacto__formulario .nombre {
+    grid-column: 3/9;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .apellido {
+    grid-column: 10/19;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .email {
+    grid-column: 3/9;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .telefono {
+    grid-column: 10/19;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .mensaje {
+    grid-column: 3/19;
+    grid-row: 8/9;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    height: 50px;
+    width: 150px;
+    background-color: #002a3a;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit:hover {
+    background-color: #e9bb52;
+    color: #002a3a;
+  }
+}
+/*------------------------------ contacto 320-600 ------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .contacto__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 180px;
+  }
+  .contacto__encabezado .contacto__titulo {
+    font-family: "montserrat_medium";
+    font-size: 45px;
+    grid-column: 3/12;
+    align-self: end;
+    font-size: 30px;
+    grid-column: 3/16;
+  }
+  .contacto__encabezado .contacto__subtitulo {
+    font-size: 20px;
+    grid-column: 3/14;
+    grid-template-rows: 2/3;
+    font-family: "Montserrat-Light";
+    align-self: start;
+    grid-column: 3/18;
+    font-size: 18px;
+  }
+
+  .contacto__formulario {
+    display: grid;
+    height: 850px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    color: #002a3a;
+  }
+  .contacto__formulario .contacto__formulario-titulo {
+    grid-column: 2/8;
+    grid-row: 2/3;
+    font-family: "montserrat_medium";
+  }
+  .contacto__formulario .contacto__formulario-titulo h2 {
+    font-size: 18px;
+    color: #002a3a;
+    margin-top: 60px;
+  }
+  .contacto__formulario .contacto__formulario-check {
+    grid-column: 2/9;
+    grid-row: 3/4;
+    margin-bottom: 30px;
+    font-family: "montserrat_light";
+  }
+  .contacto__formulario .contacto__formulario-check .form-check {
+    font-size: 16px;
+  }
+  .contacto__formulario .nombre {
+    grid-column: 2/10;
+    grid-row: 5/6;
+  }
+  .contacto__formulario .apellido {
+    grid-column: 2/10;
+    grid-row: 6/7;
+  }
+  .contacto__formulario .email {
+    grid-column: 2/10;
+    grid-row: 7/8;
+  }
+  .contacto__formulario .telefono {
+    grid-column: 2/10;
+    grid-row: 8/9;
+  }
+  .contacto__formulario .mensaje {
+    grid-column: 2/10;
+    grid-row: 9/10;
+    margin-top: 20px;
+  }
+  .contacto__formulario .boton-submit {
+    grid-column: 2/10;
+    grid-row: 10/11;
+    height: 40px;
+    width: 140px;
+    background-color: #002a3a;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .contacto__formulario .boton-submit:hover {
+    background-color: #e9bb52;
+    color: #002a3a;
+  }
+}
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "montserrat_light";
+}
+
 /*---------------------- Encabezado HOME -------------------------*/
 .header {
   background-color: #002a3a;

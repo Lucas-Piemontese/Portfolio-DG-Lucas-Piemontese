@@ -113,7 +113,7 @@ $paleta:(
                 --animate-duration: 1.5s;
             }
             .sobremi__texto{
-                color: #002a3a;
+                color: map-get($map: $paleta, $key:'primario' );
                 justify-self: start;
                 align-self: center;
                 width: 350px;
@@ -167,7 +167,7 @@ $paleta:(
                 --animate-duration: 1.5s;
             }
             .sobremi__texto{
-                color: #002a3a;
+                color: map-get($map: $paleta, $key:'primario' );
                 justify-self: start;
                 align-self: center;
                 width: 350px;
@@ -223,7 +223,7 @@ $paleta:(
                 --animate-duration: 1.5s;
             }
             .sobremi__texto{
-                color: #002a3a;
+                color: map-get($map: $paleta, $key:'primario' );
                 justify-self: start;
                 align-self: center;
                 width: 450px;
@@ -279,7 +279,7 @@ $paleta:(
             --animate-duration: 1.5s;
         }
         .sobremi__texto{
-            color: #002a3a;
+            color: map-get($map: $paleta, $key:'primario' );
             justify-self: start;
             align-self: center;
             width: auto;
