@@ -494,7 +494,6 @@ html {
     font-size: 45px;
     grid-column: 3/12;
     align-self: end;
-    font-family: "montserrat_medium";
   }
   .servicios__encabezado .servicios__subtitulo {
     font-size: 20px;
@@ -504,7 +503,6 @@ html {
     align-self: start;
     grid-column: 3/19;
     font-size: 19px;
-    font-family: "montserrat_light";
   }
 
   .servicios__container {
@@ -553,7 +551,6 @@ html {
     font-size: 45px;
     grid-column: 3/12;
     align-self: end;
-    font-family: "montserrat_medium";
   }
   .servicios__encabezado .servicios__subtitulo {
     font-size: 20px;
@@ -563,7 +560,6 @@ html {
     align-self: start;
     grid-column: 3/19;
     font-size: 19px;
-    font-family: "montserrat_light";
   }
 
   .servicios__container {

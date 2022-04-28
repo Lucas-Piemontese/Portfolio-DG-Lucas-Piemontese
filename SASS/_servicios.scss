@@ -467,13 +467,11 @@ html{
 
         .servicios__titulo{
         @include encabezado-titulo;
-        font-family: 'montserrat_medium';
         }
         .servicios__subtitulo{
         @include encabezado-subtitulo;
         grid-column: 3/19;
         font-size: 19px;
-        font-family: 'montserrat_light';
         }
     }
     .servicios__container{
@@ -516,13 +514,11 @@ html{
 
         .servicios__titulo{
         @include encabezado-titulo;
-        font-family: 'montserrat_medium';
         }
         .servicios__subtitulo{
         @include encabezado-subtitulo;
         grid-column: 3/19;
         font-size: 19px;
-        font-family: 'montserrat_light';
         }
     }
     .servicios__container{
