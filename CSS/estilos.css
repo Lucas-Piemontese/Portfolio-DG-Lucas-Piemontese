@@ -49,7 +49,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -194,7 +194,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -348,7 +348,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -499,7 +499,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
     grid-column: 3/19;
     font-size: 19px;
@@ -556,7 +556,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
     grid-column: 3/19;
     font-size: 19px;
@@ -620,7 +620,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 }
@@ -807,7 +807,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -995,7 +995,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -1188,7 +1188,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
     grid-column: 3/19;
     font-size: 19px;
@@ -1391,7 +1391,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
     grid-column: 3/19;
     font-size: 19px;
@@ -1437,6 +1437,148 @@ html {
   }
   .galeria_container img {
     width: 300px;
+  }
+  .galeria_container a:hover img {
+    filter: opacity(40%);
+    transition: all 0.5s;
+  }
+
+  .light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+  }
+  .light-box img {
+    width: 450px;
+  }
+  .light-box .close {
+    display: block;
+    position: absolute;
+    top: 120px;
+    right: 70px;
+    color: white;
+  }
+  .light-box .close:hover {
+    display: block;
+    position: absolute;
+    top: 120px;
+    right: 70px;
+    color: #e9bb52;
+  }
+  .light-box .right {
+    color: white;
+    margin-left: 40px;
+    position: relative;
+    right: 250px;
+    top: 320px;
+  }
+  .light-box .right:hover {
+    color: #e9bb52;
+    margin-left: 40px;
+  }
+  .light-box .left {
+    color: white;
+    margin-right: 40px;
+    position: relative;
+    left: 250px;
+    top: 320px;
+  }
+  .light-box .left:hover {
+    color: #e9bb52;
+    margin-right: 40px;
+  }
+  .light-box .bajada {
+    color: white;
+    font-family: "montserrat_light";
+    text-align: center;
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 30px;
+  }
+  .light-box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .light-box:target {
+    transform: scale(1);
+  }
+}
+/*------------------------------ Porfolio 0-319 --------------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+  .portfolio__encabezado {
+    background-color: #002a3a;
+    color: #e9bb52;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .portfolio__encabezado .portfolio__titulo {
+    font-family: "montserrat_medium";
+    font-size: 30px;
+    grid-column: 2/12;
+    align-self: end;
+  }
+  .portfolio__encabezado .portfolio__subtitulo {
+    font-size: 20px;
+    grid-column: 2/14;
+    grid-template-rows: 2/3;
+    font-family: "montserrat-Light";
+    align-self: start;
+  }
+
+  .filtro {
+    display: flex;
+    flex-direction: column;
+  }
+  .filtro .filtro__lista {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .filtro .filtro__lista li {
+    line-height: 30px;
+    margin: 0px;
+    text-align: center;
+  }
+  .filtro .filtro__lista a {
+    text-decoration: none;
+    color: #002a3a;
+    font-family: "montserrat_light";
+    font-size: 15px;
+  }
+  .filtro .filtro__lista a:hover {
+    font-family: "montserrat_bold";
+  }
+  .filtro .filtro__lista .todo-amarillo {
+    color: #e9bb52;
+  }
+
+  .galeria_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .galeria_container div {
+    display: flex;
+    justify-content: center;
+  }
+  .galeria_container img {
+    width: 100%;
   }
   .galeria_container a:hover img {
     filter: opacity(40%);
@@ -1844,7 +1986,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -1931,7 +2073,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -2018,7 +2160,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
   }
 
@@ -2105,7 +2247,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
     grid-column: 3/16;
   }
@@ -2193,7 +2335,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat-Light";
     align-self: start;
     grid-column: 3/18;
     font-size: 18px;
@@ -4248,6 +4390,173 @@ html {
     font-family: "montserrat_light";
     position: relative;
     font-size: 15px;
+  }
+  .footer .footer__container li a {
+    text-decoration: none;
+    color: #e9bb52;
+  }
+  .footer .footer__container h2 {
+    font-family: "montserrat_medium";
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .footer .footer__container .footer__linea {
+    width: 100%;
+    height: 25px;
+  }
+  .footer .footer__container .footer__copyright {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "montserrat_light";
+    font-size: 12px;
+  }
+}
+/*--------------------------- RESPONSIVE HOME 0-319 --------------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "montserrat_light";
+  }
+
+  .header {
+    background: #002a3a;
+    height: 130px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+  }
+  .header .header__container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  .header .header__container a {
+    grid-column: 3;
+  }
+  .header .header__container .header__logo {
+    width: 180px;
+  }
+  .header .header__container .header__nav {
+    grid-column: 4/9;
+    display: none;
+  }
+  .header .header__container .header__nav .header__lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .header__container .header__nav li a {
+    text-decoration: none;
+    color: #e9bb52;
+    font-family: "montserrat_light";
+    font-size: 15px;
+  }
+  .header .header__container .header__redes {
+    grid-column: 8/9;
+    display: flex;
+    justify-content: start;
+  }
+  .header .header__container .header__redes .header__insta {
+    color: #e9bb52;
+    padding-left: 10px;
+    display: none;
+  }
+  .header .header__container .header__redes .header__behance {
+    color: #e9bb52;
+    padding-left: 10px;
+    display: none;
+  }
+  .header .header__container .header__redes .header__menu {
+    color: #e9bb52;
+    padding-left: 10px;
+    display: block;
+  }
+
+  /*------------ Menú Hamburguesa (0-319) ------------*/
+  #evento-click {
+    display: none;
+  }
+
+  .desplegable__lista {
+    width: 100%;
+    height: 280px;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: none;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    z-index: 100;
+  }
+
+  .desplegable__lista li a {
+    color: #e9bb52;
+    text-decoration: none;
+    font-family: "montserrat_light";
+    line-height: 50px;
+  }
+
+  #evento-click:checked ~ .desplegable__lista {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #002a3a;
+    display: block;
+  }
+
+  /*---------------------- Footer HOME (0-319 )-------------------------*/
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #002a3a;
+  }
+  .footer .footer__container {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #e9bb52;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer__container .footer__servicios {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .footer .footer__container .footer__explora {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .footer .footer__container .footer__contacto {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .footer .footer__container .footer__logo {
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer .footer__container ul {
+    list-style: none;
+    margin-bottom: 50px;
+  }
+  .footer .footer__container li {
+    line-height: 24px;
+    font-family: "montserrat_light";
+    position: relative;
+    font-size: 14px;
   }
   .footer .footer__container li a {
     text-decoration: none;

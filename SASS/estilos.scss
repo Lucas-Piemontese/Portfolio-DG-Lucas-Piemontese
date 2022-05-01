@@ -2136,3 +2136,176 @@ html{
         }
     }
 }
+
+/*--------------------------- RESPONSIVE HOME 0-319 --------------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        font-family: 'montserrat_light';
+    }
+    .header{
+        background: $color-azul;
+        height: 130px;
+        z-index: 100;
+        position: sticky;
+        top: 0;
+
+        .header__container{
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            align-content: center;
+            align-items: center;
+            height: 150px;
+
+            a{
+                grid-column: 3;
+            }
+            .header__logo{
+                width: 180px;
+            }
+            .header__nav{
+                grid-column: 4/9;
+                display: none;
+
+                .header__lista{
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                li a{
+                    text-decoration: none;
+                    color: $color-amarillo;
+                    font-family: 'montserrat_light';
+                    font-size: 15px;
+                }
+            }
+            .header__redes{
+                grid-column:8/9;
+                display: flex;
+                justify-content: start;
+
+                .header__insta{
+                    color: #e9bb52;
+                    padding-left: 10px;
+                    display: none;
+                }
+                .header__behance{
+                    color: #e9bb52;
+                    padding-left: 10px;
+                    display: none
+                }
+                .header__menu{
+                    color: $color-amarillo;
+                    padding-left: 10px;
+                    display: block;
+                }
+            }
+        }
+    }
+    /*------------ Menú Hamburguesa (0-319) ------------*/
+    #evento-click{
+        display: none;
+    }
+    .desplegable__lista{
+        width: 100%;
+        height: 280px;
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display: none;
+        margin: 0;
+        position: absolute;
+        top: 130px;
+        z-index: 100;
+    }
+    .desplegable__lista li a{
+        color: #e9bb52;
+        text-decoration: none;
+        font-family: 'montserrat_light';
+        line-height: 50px;
+    }
+    #evento-click:checked ~ .desplegable__lista{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        background-color: #002a3a;
+        display:block;
+    }
+
+    /*---------------------- Footer HOME (0-319 )-------------------------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #002a3a;
+
+    .footer__container{
+        margin-left: 20px;
+        margin-right: 20px;
+        color: #e9bb52;
+        display: flex;
+        flex-direction: column;
+
+        .footer__servicios{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+        .footer__explora{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+        .footer__contacto{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+
+        .footer__logo{
+            width: 200px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        ul{
+            list-style: none;
+            margin-bottom: 50px;
+        }
+        li{
+            line-height: 24px;
+            font-family: 'montserrat_light';
+            position: relative;
+            font-size: 14px;
+
+            a{
+                text-decoration: none;
+                color: #e9bb52;
+            }
+        }
+        h2{
+            font-family: 'montserrat_medium';
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+        .footer__linea{
+            width: 100%;
+            height: 25px;
+        }
+        .footer__copyright{
+            margin-bottom: 50px;
+            margin-top: 20px;
+            text-align: center;
+            font-family: 'montserrat_light';
+            font-size: 12px;
+        }
+    }
+}
+}
