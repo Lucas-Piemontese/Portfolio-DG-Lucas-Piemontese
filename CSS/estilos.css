@@ -558,6 +558,7 @@ html {
     grid-template-rows: 2/3;
     font-family: "montserrat_light";
     align-self: start;
+    font-family: "montserrat_light";
     grid-column: 3/19;
     font-size: 19px;
   }
@@ -1687,7 +1688,7 @@ html {
     font-size: 20px;
     grid-column: 3/14;
     grid-template-rows: 2/3;
-    font-family: "Montserrat-Light";
+    font-family: "montserrat_light";
     align-self: start;
   }
 
@@ -1916,7 +1917,7 @@ html {
     align-self: end;
   }
   .sobremi__encabezado .sobremi__subtitulo {
-    font-size: 14px;
+    font-size: 1px;
     grid-column: 3/19;
     grid-template-rows: 2/3;
     margin-top: 10px;

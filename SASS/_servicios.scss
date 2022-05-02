@@ -517,6 +517,7 @@ html{
         }
         .servicios__subtitulo{
         @include encabezado-subtitulo;
+        font-family: 'montserrat_light';
         grid-column: 3/19;
         font-size: 19px;
         }
