@@ -1458,7 +1458,7 @@ html {
     transform: scale(0);
   }
   .light-box img {
-    width: 300px;
+    width: 320px;
   }
   .light-box .close {
     display: block;
