@@ -1458,14 +1458,15 @@ html {
     transform: scale(0);
   }
   .light-box img {
-    width: 320px;
+    width: 300px;
   }
   .light-box .close {
     display: block;
-    position: absolute;
-    top: 220px;
-    right: 50px;
+    position: relative;
+    top: -10px;
+    right: 0px;
     color: white;
+    width: 12px;
   }
   .light-box .close:hover {
     display: block;
