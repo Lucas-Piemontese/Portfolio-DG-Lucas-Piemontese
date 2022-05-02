@@ -45,7 +45,8 @@ $paleta:(
             @include encabezado-titulo
             }
             .sobremi__subtitulo{
-            @include encabezado-subtitulo
+            @include encabezado-subtitulo;
+            font-family: 'montserrat_light';
             }
         }
         .sobremi__container{
@@ -259,7 +260,7 @@ $paleta:(
             align-self: end;
             }
             .sobremi__subtitulo{
-                font-size: 1px;
+                font-size: 18px;
                 grid-column: 3/19;
                 grid-template-rows: 2/3;
                 margin-top: 10px;
