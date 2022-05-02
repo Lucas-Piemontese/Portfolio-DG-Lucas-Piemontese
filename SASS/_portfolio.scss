@@ -858,16 +858,17 @@ html{
         }
         .close:hover{
             display: block;
-            position: absolute;
-            top:220px;
-            right: 50px;
+            position: relative;
+            top: -10px;
+            right: 0px;
             color: #e9bb52;
+            width: 12px;
         }
         .right{
             color: white;
             margin-left: 40px;
             position: relative;
-            right: 250px;
+            right: 150px;
             top: 230px;
         }
         .right:hover{
@@ -879,7 +880,7 @@ html{
             color: white;
             margin-right: 40px;
             position: relative;
-            left: 250px;
+            left: 150px;
             top: 230px;
         }
         .left:hover{
