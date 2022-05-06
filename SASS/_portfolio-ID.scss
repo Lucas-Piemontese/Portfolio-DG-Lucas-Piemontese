@@ -42,11 +42,11 @@ html{
             }
         }
 }
-.filtro{
+.filtro-id{
     display: grid;
     grid-template-columns: repeat(10,1fr);
 
-    .filtro__lista{
+    .filtro-id__lista{
         grid-column: 3/9;
         list-style: none;
         justify-self: center;
@@ -65,15 +65,15 @@ html{
     a:hover{
         font-family: 'montserrat_bold';
     }
-    .todo-amarillo{
+    .id-amarillo{
         color: #e9bb52;
-        font-family: 'montserrat_bold';
+        font-family: 'montserrat-bold';
     }
 }
-.galeria_container{
+.galeria_container-id{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
     column-gap: 30px;
     row-gap: 30px;
 
@@ -127,18 +127,6 @@ html{
     .img-12{
         grid-column: 4/5;
         grid-row: 4/5;
-    }
-    .img-13{
-        grid-column: 2/3;
-        grid-row: 5/6;
-    }
-    .img-14{
-        grid-column: 3/4;
-        grid-row: 5/6;
-    }
-    .img-15{
-        grid-column: 4/5;
-        grid-row: 5/6;
     }
     a:hover img{
         filter: opacity(40%);
@@ -219,11 +207,11 @@ html{
         @include encabezado-subtitulo
         }
     }
-    .filtro{
+    .filtro-id{
         display: grid;
         grid-template-columns: repeat(10,1fr);
 
-        .filtro__lista{
+        .filtro-id__lista{
             grid-column: 1/11;
             list-style: none;
             justify-self: center;
@@ -243,15 +231,15 @@ html{
         a:hover{
             font-family: 'montserrat_bold';
         }
-        .todo-amarillo{
+        .id-amarillo{
             color: #e9bb52;
             font-family: 'montserrat_bold';
         }
     }
-    .galeria_container{
+    .galeria_container-id{
         display: grid;
         grid-template-columns: repeat(5,1fr);
-        grid-template-rows: repeat(5,1fr);
+        grid-template-rows: repeat(4,1fr);
         column-gap: 30px;
         row-gap: 30px;
 
@@ -306,18 +294,6 @@ html{
         .img-12{
             grid-column: 4/5;
             grid-row: 4/5;
-        }
-        .img-13{
-            grid-column: 2/3;
-            grid-row: 5/6;
-        }
-        .img-14{
-            grid-column: 3/4;
-            grid-row: 5/6;
-        }
-        .img-15{
-            grid-column: 4/5;
-            grid-row: 5/6;
         }
         a:hover img{
             filter: opacity(40%);
@@ -401,11 +377,11 @@ html{
         }
     }
 
-    .filtro{
+    .filtro-id{
         display: grid;
         grid-template-columns: repeat(10,1fr);
 
-        .filtro__lista{
+        .filtro-id__lista{
             grid-column: 2/10;
             list-style: none;
             justify-self: center;
@@ -423,21 +399,21 @@ html{
                 text-decoration: none;
                 color: #002a3a;
                 font-family: 'montserrat_light';
-                font-size: 14px;
+                font-size: 13.5px;
             }
             a:hover{
                 font-family: 'montserrat_bold';
             }
-            .todo-amarillo{
+            .id-amarillo{
                 color: #e9bb52;
                 font-family: 'montserrat_bold';
             }
         }
     }
-    .galeria_container{
+    .galeria_container-id{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(8,1fr);
+        grid-template-rows: repeat(6,1fr);
         column-gap: 30px;
         row-gap: 30px;
         margin-right: 70px;
@@ -494,18 +470,6 @@ html{
         .img-12{
             grid-column: 2/3;
             grid-row: 6/7;
-        }
-        .img-13{
-            grid-column: 1/2;
-            grid-row: 7/8;
-        }
-        .img-14{
-            grid-column: 2/3;
-            grid-row: 7/8;
-        }
-        .img-15{
-            grid-column: 1/2;
-            grid-row: 8/9;
         }
         a:hover img{
             filter: opacity(40%);
@@ -592,11 +556,11 @@ html{
         }
     }
 
-    .filtro{
+    .filtro-id{
         display: grid;
         grid-template-columns: repeat(10,1fr);
 
-        .filtro__lista{
+        .filtro-id__lista{
             grid-column: 3/9;
             list-style: none;
             justify-self: center;
@@ -621,16 +585,16 @@ html{
             a:hover{
                 font-family: 'montserrat_bold';
             }
-            .todo-amarillo{
+            .id-amarillo{
                 color: #e9bb52;
                 font-family: 'montserrat_bold';
             }
         }
     }
-    .galeria_container{
+    .galeria_container-id{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(8,1fr);
+        grid-template-rows: repeat(6,1fr);
         column-gap: 30px;
         row-gap: 30px;
         margin-right: 60px;
@@ -688,25 +652,13 @@ html{
             grid-column: 2/3;
             grid-row: 6/7;
         }
-        .img-13{
-            grid-column: 1/2;
-            grid-row: 7/8;
-        }
-        .img-14{
-            grid-column: 2/3;
-            grid-row: 7/8;
-        }
-        .img-15{
-            grid-column: 1/2;
-            grid-row: 8/9;
-        }
         a:hover img{
             filter: opacity(40%);
             transition: all .5s;
         }
     }
     .espacio{
-        height: 150px;
+        height: 100px;
     }
     .light-box{
         position: fixed;
@@ -790,11 +742,11 @@ html{
         }
     }
 
-    .filtro{
+    .filtro-id{
         display: flex;
         flex-direction: column;
 
-        .filtro__lista{
+        .filtro-id__lista{
             display: flex;
             flex-direction: column;
             padding-left: 0px;
@@ -814,13 +766,13 @@ html{
             a:hover{
                 font-family: 'montserrat_bold';
             }
-            .todo-amarillo{
+            .id-amarillo{
                 color: #e9bb52;
                 font-family: 'montserrat_bold';
             }
         }
     }
-    .galeria_container{
+    .galeria_container-id{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -940,11 +892,11 @@ html{
                 }
         }
 
-    .filtro{
+    .filtro-id{
         display: flex;
         flex-direction: column;
 
-        .filtro__lista{
+        .filtro-id__lista{
             display: flex;
             flex-direction: column;
             padding-left: 0px;
@@ -964,13 +916,13 @@ html{
             a:hover{
                 font-family: 'montserrat_bold';
             }
-            .todo-amarillo{
+            .id-amarillo{
                 color: #e9bb52;
                 font-family: 'montserrat_bold';
             }
         }
     }
-    .galeria_container{
+    .galeria_container-id{
         display: flex;
         flex-direction: column;
         justify-content: center;
