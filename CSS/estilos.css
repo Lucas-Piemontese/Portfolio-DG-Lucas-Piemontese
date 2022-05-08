@@ -956,7 +956,7 @@ html {
 .galeria_container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   column-gap: 30px;
   row-gap: 30px;
 }
@@ -1022,6 +1022,42 @@ html {
 .galeria_container .img-15 {
   grid-column: 4/5;
   grid-row: 5/6;
+}
+.galeria_container .img-16 {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+.galeria_container .img-17 {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+.galeria_container .img-18 {
+  grid-column: 4/5;
+  grid-row: 6/7;
+}
+.galeria_container .img-19 {
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+.galeria_container .img-20 {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+.galeria_container .img-21 {
+  grid-column: 4/5;
+  grid-row: 7/8;
+}
+.galeria_container .img-22 {
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+.galeria_container .img-23 {
+  grid-column: 3/4;
+  grid-row: 8/9;
+}
+.galeria_container .img-24 {
+  grid-column: 4/5;
+  grid-row: 8/9;
 }
 .galeria_container a:hover img {
   filter: opacity(40%);
@@ -1145,7 +1181,7 @@ html {
   .galeria_container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     column-gap: 30px;
     row-gap: 30px;
   }
@@ -1211,6 +1247,42 @@ html {
   .galeria_container .img-15 {
     grid-column: 4/5;
     grid-row: 5/6;
+  }
+  .galeria_container .img-16 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+  .galeria_container .img-17 {
+    grid-column: 3/4;
+    grid-row: 6/7;
+  }
+  .galeria_container .img-18 {
+    grid-column: 4/5;
+    grid-row: 6/7;
+  }
+  .galeria_container .img-19 {
+    grid-column: 2/3;
+    grid-row: 7/8;
+  }
+  .galeria_container .img-20 {
+    grid-column: 3/4;
+    grid-row: 7/8;
+  }
+  .galeria_container .img-21 {
+    grid-column: 4/5;
+    grid-row: 7/8;
+  }
+  .galeria_container .img-22 {
+    grid-column: 2/3;
+    grid-row: 8/9;
+  }
+  .galeria_container .img-23 {
+    grid-column: 3/4;
+    grid-row: 8/9;
+  }
+  .galeria_container .img-24 {
+    grid-column: 4/5;
+    grid-row: 8/9;
   }
   .galeria_container a:hover img {
     filter: opacity(40%);
@@ -1337,7 +1409,7 @@ html {
   .galeria_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     column-gap: 30px;
     row-gap: 30px;
     margin-right: 70px;
@@ -1405,6 +1477,42 @@ html {
   .galeria_container .img-15 {
     grid-column: 1/2;
     grid-row: 8/9;
+  }
+  .galeria_container .img-16 {
+    grid-column: 2/3;
+    grid-row: 8/9;
+  }
+  .galeria_container .img-17 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+  }
+  .galeria_container .img-18 {
+    grid-column: 2/3;
+    grid-row: 9/10;
+  }
+  .galeria_container .img-19 {
+    grid-column: 1/2;
+    grid-row: 10/11;
+  }
+  .galeria_container .img-20 {
+    grid-column: 2/3;
+    grid-row: 10/11;
+  }
+  .galeria_container .img-21 {
+    grid-column: 1/2;
+    grid-row: 11/12;
+  }
+  .galeria_container .img-22 {
+    grid-column: 2/3;
+    grid-row: 11/12;
+  }
+  .galeria_container .img-23 {
+    grid-column: 1/2;
+    grid-row: 12/13;
+  }
+  .galeria_container .img-24 {
+    grid-column: 2/3;
+    grid-row: 12/13;
   }
   .galeria_container a:hover img {
     filter: opacity(40%);
@@ -1535,7 +1643,7 @@ html {
   .galeria_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     column-gap: 30px;
     row-gap: 30px;
     margin-right: 60px;
@@ -1603,6 +1711,42 @@ html {
   .galeria_container .img-15 {
     grid-column: 1/2;
     grid-row: 8/9;
+  }
+  .galeria_container .img-16 {
+    grid-column: 2/3;
+    grid-row: 8/9;
+  }
+  .galeria_container .img-17 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+  }
+  .galeria_container .img-18 {
+    grid-column: 2/3;
+    grid-row: 9/10;
+  }
+  .galeria_container .img-19 {
+    grid-column: 1/2;
+    grid-row: 10/11;
+  }
+  .galeria_container .img-20 {
+    grid-column: 2/3;
+    grid-row: 10/11;
+  }
+  .galeria_container .img-21 {
+    grid-column: 1/2;
+    grid-row: 11/12;
+  }
+  .galeria_container .img-22 {
+    grid-column: 2/3;
+    grid-row: 11/12;
+  }
+  .galeria_container .img-23 {
+    grid-column: 1/2;
+    grid-row: 12/13;
+  }
+  .galeria_container .img-24 {
+    grid-column: 2/3;
+    grid-row: 12/13;
   }
   .galeria_container a:hover img {
     filter: opacity(40%);
